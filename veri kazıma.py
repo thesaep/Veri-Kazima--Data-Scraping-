@@ -14,24 +14,3 @@ for film in findname:
         print(film.find("td",{"class":"titleColumn"}).text.replace("\n",""),end='\t\t')
         print(film.find("td",{"class":"ratingColumn imdbRating"}).text.replace("\n",""))
         
-    
-    
-
-
-
-
-
-
-
-
-"""
-tableclass = imdb.find_all("table",{"class":"chart full-width"})
-#print(tableclass)
-
-#print("************************")
-#print(len(tableclass))
-
-print(tableclass[0].contents)
-print("************************")
-print(len(tableclass[0].contents))
-"""
